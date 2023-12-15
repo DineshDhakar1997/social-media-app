@@ -2,10 +2,8 @@
 
 ### I have created a social media web app.
 ### A user can do the following things.
--Signup/Login
-- Create a Post
-
-
+- Signup/Login
+- Create/Read/Update/Delete a Post
 
 
 ### Models
@@ -14,10 +12,17 @@
 - User.js                                                                     User Schema 
 ```
 
+
 ## Routes Setup
 ```html
-- blog-routes.js                                                                     Blog Routes 
-- user-routes.js                                                                     User Routes 
+- blog-routes.js                                                              Blog Routes 
+- user-routes.js                                                              User Routes 
+```
+
+## Controllers Setup
+```html
+- blog-controller.js                                                          Blog controller 
+- user-controller.js                                                          User controller 
 ```
 
 
